@@ -1,4 +1,5 @@
 Connection con;
+Connection con;
 out = new BufferedWriter(new FileWriter(”filename”, true));
 while (rs.next())
 hello world
