@@ -1,3 +1,4 @@
+ps.close();
 ResultSet rs = ps.executeQuery();
 PreparedStatement ps = con.prepareStatement("select SYSDATE from dual");
 OracleJdbcTest test = new OracleJdbcTest();
