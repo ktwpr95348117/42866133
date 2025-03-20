@@ -1,3 +1,4 @@
+BufferedWriter out = null;
 if (out != null) {
 ps.close();
 ResultSet rs = ps.executeQuery();
